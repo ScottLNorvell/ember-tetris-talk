@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-talk",
+  "version": "1.0",
+  "authors": [
+    "Roger Steve Ruiz <roger@cnevids.com>"
+  ],
+  "description": "CNÉ Bootstrap Talk using Bespoke",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bespoke-backdrop": "~1.0.0",
+    "bespoke.js": "~1.0.0",
+    "bespoke-loop": "~1.0.0",
+    "bespoke-progress": "~1.0.0",
+    "bespoke-scale": "~1.0.0",
+    "jquery": "~2.1.1",
+    "bespoke-keys": "~1.0.0",
+    "bespoke-touch": "~1.0.0",
+    "bespoke-classes": "~1.0.0",
+    "bespoke-hash": "~1.0.0",
+    "bespoke-state": "~1.0.0",
+    "bespoke-bullets": "~1.1.0"
+  }
+}

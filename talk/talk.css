@@ -1,0 +1,134 @@
+/*
+  $rgba--cne-purple: background-color: rgba(84, 0, 126, 1);
+  $rgba--cne-scene-blue: background-color: rgba(12, 72, 254, 1);
+*/
+
+@import '_icon.css';
+@import '_github-markdown.css';
+@import '_global.css';
+@import '_bespoke.css';
+
+/*
+  Base Slide Styles
+*/
+
+.slides {
+  background-color: rgba(10, 30, 40, 1);
+}
+
+.slide {
+  background-color: rgba(10, 30, 40, 1);
+  color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.is-title .slide {
+  background-color: rgba(12, 72, 254, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.is-section .slide {
+  background-color: rgba(84, 0, 126, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.cne-icon--thescene {
+  font-size: 400px;
+  display: block;
+  position: relative;
+  top: -50px;
+  line-height: 0;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: -125px;
+  padding: 0;
+}
+
+.slide__title {
+  font-weight: 100;
+  font-size: 78px;
+  margin: 0;
+  padding: 0;
+}
+
+.slide__subhead {
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.slide__copy {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.slide__image {
+  display: none;
+  width: 50%;
+  margin: 10px auto;
+  border: rgba(255, 255, 255, 0.25) 5px solid;
+  border-radius: 2px;
+}
+
+.slide__code {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  border: rgba(0, 0, 0, 0.25) 5px solid;
+  border-radius: 2px;
+}
+.slide__code pre {
+  font-size: 1.25em !important;
+  line-height: 1.5 !important;
+  padding: 10px !important;
+  margin: 0 !important;
+}
+
+.bespoke-active .slide__image {
+  display: block;
+}
+
+
+.slide__list__item {
+  border-width: 2px;
+  border-style: solid;
+
+  padding: 10px;
+  overflow: hidden;
+
+  font-size: 32px;
+  text-align: left;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.slide__list__item--code {
+  text-transform: none;
+}
+
+.slide__list__item .cne-icon--check,
+.slide__list__item b {
+  float: left;
+  margin-right: 20px;
+}
+
+code {
+  font-size: inherit;
+  padding: 2px;
+}
+
+code:before {
+  content: '[';
+}
+
+code:after {
+  content: ']';
+}
+
+.slide__list__item span {
+  overflow: hidden;
+  display: block;
+}
