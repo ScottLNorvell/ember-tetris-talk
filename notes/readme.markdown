@@ -7,4 +7,4 @@ summarize what you'd like to talk about and jot the points down here.
 You can link to any [markdown][example] file. Just make sure it's in the `notes`
 directory and you'll be all set.
 
-[file]: example.markdown
+[example]: example.markdown
