@@ -39,9 +39,9 @@ include a link to the note on the `readme.markdown` file in the `notes` director
 Special thanks and appreciation:
 
 * [jQuery](http://jquery.com)
-* [Ember](http://emberjs.com)
 * [Bower](http://bower.io)
+* [Github-Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
 * [BespokeJS](http://markdalgleish.com/projects/bespoke.js/)
-* [The Scene](http://thescene.com)
+* `add more here things that made this talk possible here`
 
 Built with ♥︎ at [Condé Nast Entertainment](http://www.condenast.com/brands/conde-nast-entertainment)
