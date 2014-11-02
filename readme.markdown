@@ -14,7 +14,7 @@ npm install --global bower
 
 Once Bower is installed; do this:
 ```bash
-cd ~/projectDir/thescene-postmortem-talk
+cd ~/projectDir/bootstrap-talk
 bower install
 ```
 
