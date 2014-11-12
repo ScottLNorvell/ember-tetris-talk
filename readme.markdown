@@ -42,6 +42,7 @@ Special thanks and appreciation:
 * [Bower](http://bower.io)
 * [Github-Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
 * [BespokeJS](http://markdalgleish.com/projects/bespoke.js/)
+* [HighlightJS](https://highlightjs.org/)
 * `add more here things that made this talk possible here`
 
 Built with ♥︎ at [Condé Nast Entertainment](http://www.condenast.com/brands/conde-nast-entertainment)

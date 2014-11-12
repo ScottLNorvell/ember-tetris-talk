@@ -4,7 +4,6 @@
 */
 
 @import '_icon.css';
-@import '_github-markdown.css';
 @import '_global.css';
 @import '_bespoke.css';
 
@@ -21,6 +20,15 @@
   color: #fff;
   box-sizing: border-box;
   text-align: center;
+}
+
+.slide code {
+  text-align: left;
+}
+
+/* Make the font a little bigger for highlightjs */
+.hljs {
+  font-size: 22px;
 }
 
 .is-title .slide {
@@ -115,16 +123,16 @@
   margin-right: 20px;
 }
 
-code {
+code.special {
   font-size: inherit;
   padding: 2px;
 }
 
-code:before {
+code.special:before {
   content: '[';
 }
 
-code:after {
+code.special:after {
   content: ']';
 }
 

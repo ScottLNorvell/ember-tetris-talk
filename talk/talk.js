@@ -19,8 +19,16 @@
   var hash = bespoke.plugins.hash;
   var state = bespoke.plugins.state;
 
+  // HighlightJS
+  // https://highlightjs.org/
+  var hljs = global.hljs;
+
+
   $(function() {
     // Hey there, Dom. You ready?
+
+    // Init HighlightJS
+    hljs.initHighlightingOnLoad();
 
     var bespokePlugins = [
       touch(),
