@@ -1,9 +1,11 @@
 <!doctype html>
 <html>
   <head>
-    <title>CNÉ Bootstrap Talk using Bespoke</title>
+    <title>CNE Bootstrap Talk using Bespoke</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,400,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="talk.css">
+    <!-- See folder for all the sweet styles available! -->
+    <link rel="stylesheet" href="../vendor/highlightjs/styles/github.css">
     <script src="../vendor/bespoke.js/dist/bespoke.min.js"></script>
     <script src="../vendor/bespoke-scale/dist/bespoke-scale.min.js"></script>
     <script src="../vendor/bespoke-progress/dist/bespoke-progress.min.js"></script>
@@ -16,24 +18,49 @@
     <script src="../vendor/bespoke-hash/dist/bespoke-hash.min.js"></script>
     <script src="../vendor/bespoke-bullets/dist/bespoke-bullets.min.js"></script>
     <script src="../vendor/jquery/dist/jquery.min.js"></script>
+    <!-- So let's highlight code that's in a `<pre><code></code></pre>` situation -->
+    <script src="../vendor/highlightjs/highlight.pack.js"></script>
     <script src="talk.js"></script>
   </head>
   <body>
     <article id="talk" class="slides">
-      <!-- Github Markdown Styles are included here, so you can even get some
-      github-flavored-markdown markup and stick it inside of a <section> -->
       <section class="slide" data-bespoke-state="is-title">
         <inner>
           <h2 class="slide__title">Hello World</h2>
           <img src="https://www.dropbox.com/s/hzpw00eu6zxuyen/ready-to-paaaaarty.gif?dl=1" alt="" class="slide__image">
-          <p class="slide__copy"><code>Press spacebar to continue</code></p>
+          <p class="slide__copy"><code class="special">Press spacebar to continue</code></p>
         </inner>
       </section>
       <section class="slide">
         <inner>
           <h2 class="slide__title">Another slide here as an example</h2>
           <img src="http://placehold.it/470x350&text=with+an+example+image" alt="" class="slide__image">
-          <p class="slide__copy"><code>Or use the arrow keys &larr; &rarr;</code></p>
+          <p class="slide__copy"><code class="special">Or use the arrow keys &larr; &rarr;</code></p>
+        </inner>
+      </section>
+      <section class="slide">
+        <inner>
+          <h2 class="slide__title">A slide with some code!</h2>
+          <pre><code class="javascript">// file/path/slide_code.js
+
+function() {
+  var slides = 'awesome!';
+  this.makesPresenting('a breeze');
+  /slide[s]?/.test('This is a great slide presentation!');
+}
+          </code></pre>
+        </inner>
+      </section>
+      <section class="slide">
+        <inner>
+          <h2 class="slide__title">Just put your code into something like this:</h2>
+          <pre><code class="html">
+&lt;pre&gt;&lt;code class="javascript"&gt;
+function mySweetCode() {
+  return 'yay!';
+}
+&lt;/code&gt;&lt;/pre&gt;
+          </code></pre>
         </inner>
       </section>
       <section class="slide" data-bespoke-state="is-section">
@@ -58,7 +85,7 @@
       <section class="slide">
         <inner>
           <h2 class="slide__title">The End</h2>
-          <p class="slide__copy"><code>And the whole slide deck loops.</code></p>
+          <p class="slide__copy"><code class="special">And the whole slide deck loops.</code></p>
           <i class="cne-icon--thescene"></i>
         </inner>
       </section>
