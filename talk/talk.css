@@ -73,6 +73,10 @@
   line-height: 1.5;
 }
 
+.slide__link, slide__link:visited, slide__link:hover {
+  color: #fff;
+}
+
 .slide__image {
   display: none;
   width: 50%;
