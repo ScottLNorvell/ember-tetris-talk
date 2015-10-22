@@ -1,7 +1,7 @@
-Bootstrap Talk
+Ember Tetris Talk
 ===
 
-> Put a description here
+> Talk about [Ember Tetris Addon](https://github.com/ScottLNorvell/ember-tetris-addon) for Ember NYC October Meetup.
 
 ### Installing dependencies
 
@@ -14,7 +14,7 @@ npm install --global bower
 
 Once Bower is installed; do this:
 ```bash
-cd ~/projectDir/bootstrap-talk
+cd ~/projectDir/ember-tetris-talk
 bower install
 ```
 
@@ -34,7 +34,7 @@ include a link to the note on the `readme.markdown` file in the `notes` director
 ---
 ##### Colophon
 
-> Put your contact information here
+> Scott Norvell @scottlnorvell
 
 Special thanks and appreciation:
 
